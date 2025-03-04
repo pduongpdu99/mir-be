@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify
 from process import pred as p
 from typing import Optional
 from flask_cors import CORS
