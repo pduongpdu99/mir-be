@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for mir-be on 2025-03-04T03:35:42Z
+# fly.toml app configuration file generated for mir-be-8ynzzq on 2025-03-04T04:24:33Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'mir-be'
+app = 'mir-be-8ynzzq'
 primary_region = 'sin'
 
 [build]
