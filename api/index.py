@@ -27,5 +27,10 @@ def pred():
     response.headers.add("Access-Control-Allow-Origin", "*")  # Explicitly allow cross-origin
     return response
 
+
+@app.route('/api', methods=['GET'])  # Handle preflight requests
+def api():
+    return jsonify({"message": "Hello, World!"})
+
 if __name__ == '__main__':
     app.run(debug=False, host="0.0.0.0")
