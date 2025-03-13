@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify
-from process import pred as p
 from typing import Optional
 from flask_cors import CORS
 
+from process import pred as p
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins
 
