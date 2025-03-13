@@ -27,9 +27,5 @@ def pred():
     response.headers.add("Access-Control-Allow-Origin", "*")  # Explicitly allow cross-origin
     return response
 
-@app.route('/api', methods=['GET'])
-def api():
-    return jsonify({"message": "Welcome to the MIR API!"})
-
 if __name__ == '__main__':
     app.run(debug=False, host="0.0.0.0")
